@@ -170,7 +170,7 @@ Opportunity Score = 중요도 + max(중요도 − 만족도, 0)
 ## ✅ 진행 현황
 
 - [x] **01 — Porter's Five Forces 모델** · [방법론](./01-porters-five-forces/methodology.md) · [분석 ① 숙박 공유](./01-porters-five-forces/analysis-01-accommodation-sharing.md) · [분석 ② 새벽배송](./01-porters-five-forces/analysis-02-dawn-delivery-ecommerce.md) · [비교](./01-porters-five-forces/comparison.md)
-- [ ] 02 — 기업 내부 활동의 가치 사슬 분석
+- [x] **02 — 기업 내부 활동의 가치 사슬 분석** · [방법론](./02-value-chain/methodology.md) · [분석 ① 숙박 공유](./02-value-chain/analysis-01-accommodation-sharing.md) · [분석 ② 새벽배송](./02-value-chain/analysis-02-dawn-delivery-ecommerce.md) · [비교](./02-value-chain/comparison.md)
 - [ ] 03 — 핵심 성공 요인(KSFs) 분석
 - [ ] 04 — TAM-SAM-SOM 과 Market Segment Map
 - [ ] 05 — 페르소나, 페르소나 스펙트럼, 고객 여정지도
@@ -186,12 +186,19 @@ business-research-practice-2026-sesac/
 ├── README.md
 ├── .gitignore
 ├── 프로젝트에서-작업할-학습챕터.png    # 학습 챕터 원본 목록
-└── 01-porters-five-forces/
-    ├── methodology.md                         # 분석 방법론 (기준 프레임)
+├── 01-porters-five-forces/
+│   ├── methodology.md                         # 분석 방법론 (기준 프레임)
+│   ├── analysis-01-accommodation-sharing.md   # 분석 ① 숙박 공유 플랫폼
+│   ├── analysis-02-dawn-delivery-ecommerce.md # 분석 ② 신선식품 새벽배송
+│   └── comparison.md                          # ① ↔ ② 비교 분석
+└── 02-value-chain/
+    ├── methodology.md                         # 분석 방법론 (9개 활동 질문표)
     ├── analysis-01-accommodation-sharing.md   # 분석 ① 숙박 공유 플랫폼
     ├── analysis-02-dawn-delivery-ecommerce.md # 분석 ② 신선식품 새벽배송
     └── comparison.md                          # ① ↔ ② 비교 분석
 ```
+
+> 💡 **동일한 두 시장**(숙박 공유 · 새벽배송)을 챕터마다 반복 분석해, 프레임워크가 바뀔 때 **같은 대상이 어떻게 다르게 보이는지**를 축적합니다.
 
 ---
 
