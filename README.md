@@ -182,7 +182,7 @@ Opportunity Score = 중요도 + max(중요도 − 만족도, 0)
 ## 📂 저장소 구조
 
 ```
-research-prac/
+business-research-practice-2026-sesac/
 ├── README.md
 ├── .gitignore
 └── 프로젝트에서-작업할-학습챕터.png   # 학습 챕터 원본 목록
