@@ -169,7 +169,7 @@ Opportunity Score = 중요도 + max(중요도 − 만족도, 0)
 
 ## ✅ 진행 현황
 
-- [ ] 01 — Porter's Five Forces 모델
+- [x] **01 — Porter's Five Forces 모델** · [방법론](./01-porters-five-forces/methodology.md) · [분석 ① 숙박 공유](./01-porters-five-forces/analysis-01-accommodation-sharing.md) · [분석 ② 새벽배송](./01-porters-five-forces/analysis-02-dawn-delivery-ecommerce.md) · [비교](./01-porters-five-forces/comparison.md)
 - [ ] 02 — 기업 내부 활동의 가치 사슬 분석
 - [ ] 03 — 핵심 성공 요인(KSFs) 분석
 - [ ] 04 — TAM-SAM-SOM 과 Market Segment Map
@@ -185,7 +185,12 @@ Opportunity Score = 중요도 + max(중요도 − 만족도, 0)
 business-research-practice-2026-sesac/
 ├── README.md
 ├── .gitignore
-└── 프로젝트에서-작업할-학습챕터.png   # 학습 챕터 원본 목록
+├── 프로젝트에서-작업할-학습챕터.png    # 학습 챕터 원본 목록
+└── 01-porters-five-forces/
+    ├── methodology.md                         # 분석 방법론 (기준 프레임)
+    ├── analysis-01-accommodation-sharing.md   # 분석 ① 숙박 공유 플랫폼
+    ├── analysis-02-dawn-delivery-ecommerce.md # 분석 ② 신선식품 새벽배송
+    └── comparison.md                          # ① ↔ ② 비교 분석
 ```
 
 ---
