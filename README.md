@@ -172,7 +172,7 @@ Opportunity Score = 중요도 + max(중요도 − 만족도, 0)
 - [x] **01 — Porter's Five Forces 모델** · [방법론](./01-porters-five-forces/methodology.md) · [분석 ① 숙박 공유](./01-porters-five-forces/analysis-01-accommodation-sharing.md) · [분석 ② 새벽배송](./01-porters-five-forces/analysis-02-dawn-delivery-ecommerce.md) · [비교](./01-porters-five-forces/comparison.md)
 - [x] **02 — 기업 내부 활동의 가치 사슬 분석** · [방법론](./02-value-chain/methodology.md) · [분석 ① 숙박 공유](./02-value-chain/analysis-01-accommodation-sharing.md) · [분석 ② 새벽배송](./02-value-chain/analysis-02-dawn-delivery-ecommerce.md) · [비교](./02-value-chain/comparison.md)
 - [x] **03 — 핵심 성공 요인(KSFs) 분석** · [분석 ① 숙박 공유](./03-key-success-factors/analysis-01-accommodation-sharing.md) · [분석 ② 새벽배송](./03-key-success-factors/analysis-02-dawn-delivery-ecommerce.md)
-- [ ] 04 — TAM-SAM-SOM 과 Market Segment Map
+- [x] **04 — TAM-SAM-SOM 과 Market Segment Map** · [아이디어 정의서](./04-tam-sam-som/보상형%20그룹별%20일상%20숏폼%20공유%20플랫폼(아이디어).md) · [시장분석 종합보고서](./04-tam-sam-som/시장분석%20종합보고서%20(TAM-SAM-SOM).md)
 - [ ] 05 — 페르소나, 페르소나 스펙트럼, 고객 여정지도
 - [ ] 06 — 시장기회 분석 : 기회점수(OS) 기반 우선순위 판단
 - [ ] 07 — 고객 상황을 객관화하는 JTBD 분석
@@ -196,9 +196,12 @@ business-research-practice-2026-sesac/
 │   ├── analysis-01-accommodation-sharing.md   # 분석 ① 숙박 공유 플랫폼
 │   ├── analysis-02-dawn-delivery-ecommerce.md # 분석 ② 신선식품 새벽배송
 │   └── comparison.md                          # ① ↔ ② 비교 분석
-└── 03-key-success-factors/
-    ├── analysis-01-accommodation-sharing.md   # 신규 진입자 Top 5 KSF ①
-    └── analysis-02-dawn-delivery-ecommerce.md # 신규 진입자 Top 5 KSF ②
+├── 03-key-success-factors/
+│   ├── analysis-01-accommodation-sharing.md   # 신규 진입자 Top 5 KSF ①
+│   └── analysis-02-dawn-delivery-ecommerce.md # 신규 진입자 Top 5 KSF ②
+└── 04-tam-sam-som/
+    ├── 보상형 그룹별 일상 숏폼 공유 플랫폼(아이디어).md  # 아이디어 정의서 (anchor)
+    └── 시장분석 종합보고서 (TAM-SAM-SOM).md             # TAM-SAM-SOM · 세그먼트 맵 · SOM 추정
 ```
 
 > 💡 **동일한 두 시장**(숙박 공유 · 새벽배송)을 챕터마다 반복 분석해, 프레임워크가 바뀔 때 **같은 대상이 어떻게 다르게 보이는지**를 축적합니다.
