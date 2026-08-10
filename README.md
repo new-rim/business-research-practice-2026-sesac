@@ -201,7 +201,11 @@ business-research-practice-2026-sesac/
 │   └── analysis-02-dawn-delivery-ecommerce.md # 신규 진입자 Top 5 KSF ②
 └── 04-tam-sam-som/
     ├── 보상형 그룹별 일상 숏폼 공유 플랫폼(아이디어).md  # 아이디어 정의서 (anchor)
-    └── 시장분석 종합보고서 (TAM-SAM-SOM).md             # TAM-SAM-SOM · 세그먼트 맵 · SOM 추정
+    ├── 시장분석 종합보고서 (TAM-SAM-SOM).md             # TAM-SAM-SOM · 세그먼트 맵 · SOM 추정
+    └── 리서치 원본/                                     # 종합보고서의 근거가 된 LLM 리서치 원문
+        ├── 지피티 리서치.md
+        ├── 제미나이 리서치.md
+        └── 클로드 리서치
 ```
 
 > 💡 **동일한 두 시장**(숙박 공유 · 새벽배송)을 챕터마다 반복 분석해, 프레임워크가 바뀔 때 **같은 대상이 어떻게 다르게 보이는지**를 축적합니다.
