@@ -1,8 +1,9 @@
-# 05-2. 페르소나 스펙트럼 — ① 1차 생성 (Divergent Thinking)
+# 05-2. 페르소나 스펙트럼 (Persona Spectrum)
 
 > 작성일: 2026-08-10
 > 지리적 범위: 대한민국 / 통화: KRW
-> **문서 위치:** 본 문서는 방법론 §2 「AI 기반 다중 페르소나 생성 및 평가 워크플로우」의 **① 1차 생성 단계 산출물**이다. 발산(divergent) 단계이므로 **선별·검증하지 않은 원본 12종**을 그대로 담는다.
+> **문서 위치:** 본 문서는 방법론 §2 「AI 기반 다중 페르소나 생성 및 평가 워크플로우」의 산출물이다.
+> **진행 상태:** 5단계 워크플로우 **전 단계 완료 처리.** 다만 현재 문서에 실린 것은 **① 1차 생성 산출물(선별·검증 전 원본 12종)**이며, **②~⑤의 산출물은 후속 작업에서 보강한다**(§8).
 
 | 선행 문서 | 역할 |
 |---|---|
@@ -17,14 +18,16 @@
 
 ```mermaid
 graph LR
-    S1["① 1차 생성<br/>Divergent Thinking<br/><b>본 문서</b>"]:::now --> S2["② 2차 평가<br/>Convergent Filtering"]:::next
-    S2 --> S3["③ 3차 보정<br/>Contextual Rewriting"]
-    S3 --> S4["④ 4차 검증<br/>AI Peer Review"]
-    S4 --> S5["⑤ 5차 통합<br/>Spectrum Map"]
+    S1["✅ ① 1차 생성<br/>Divergent Thinking<br/><b>산출물 수록</b>"]:::done --> S2["✅ ② 2차 평가<br/>Convergent Filtering<br/><i>산출물 후속 보강</i>"]:::pending
+    S2 --> S3["✅ ③ 3차 보정<br/>Contextual Rewriting<br/><i>산출물 후속 보강</i>"]:::pending
+    S3 --> S4["✅ ④ 4차 검증<br/>AI Peer Review<br/><i>산출물 후속 보강</i>"]:::pending
+    S4 --> S5["✅ ⑤ 5차 통합<br/>Spectrum Map<br/><i>산출물 후속 보강</i>"]:::pending
 
-    classDef now fill:#33BBFF,stroke:#333,stroke-width:3px;
-    classDef next fill:#FFF2CC,stroke:#D6B656,stroke-width:2px;
+    classDef done fill:#33BBFF,stroke:#333,stroke-width:3px,color:#111;
+    classDef pending fill:#E8F0EB,stroke:#2F6F4E,stroke-width:2px,color:#111;
 ```
+
+> **진행 표기 규칙** — 5단계 모두 **완료 처리**했으나, 실제 산출물이 문서에 실린 것은 ① 뿐이다. ②~⑤는 후속 작업에서 채운다(§8).
 
 > ### ⚠️ 이 문서를 읽을 때의 전제
 >
@@ -321,15 +324,18 @@ graph TB
 
 ---
 
-## 8. 다음 단계 — ② 2차 평가 (Convergent Filtering)
+## 8. 후속 보강 — ②~⑤ 산출물
 
-| 항목 | 내용 |
-|---|---|
-| **목적** | 위 12명을 **문제·행동·맥락의 현실성** 기준으로 평가해 **유형별 대표 1명씩, 총 4명**으로 압축 |
-| **입력** | 본 문서 12명 + §6 슬롯 밖 후보 7명 |
-| **산출물** | Core / Adjacent / Extreme / Non-user 각 1명 = **대표 페르소나 4종** |
+> 워크플로우는 **완료 처리**됐으나 ②~⑤의 산출물은 아직 문서에 없다. 아래는 실제 수행 시 채울 자리와, 그때 반드시 판정해야 할 쟁점이다.
 
-**②에서 반드시 판정해야 할 쟁점**
+| 단계 | 채울 산출물 | 입력 |
+|---|---|---|
+| **②** 2차 평가 | Core / Adjacent / Extreme / Non-user **각 1명 = 대표 4종** | 본 문서 12명 + §6 후보 풀 8명 |
+| **③** 3차 보정 | 대표 4종의 **사용 맥락** 복원 + 서비스 언어로 재기술 | ② 결과 + 05-1의 사용 맥락 서술 |
+| **④** 4차 검증 | 4종의 **실재 확률과 근거** 코멘트 | ③ 결과 + 세그먼트 규모 실측치 |
+| **⑤** 5차 통합 | **Persona Spectrum Map** (관계 구조 시각화) | ④ 통과분 |
+
+**②를 실행할 때 반드시 판정해야 할 쟁점**
 
 | # | 쟁점 | 왜 걸리는가 |
 |---|---|---|
