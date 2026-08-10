@@ -66,13 +66,42 @@ graph LR
 
 ```mermaid
 graph LR
-A["<b>Core 핵심</b><br/>C-01 정하윤 · C-02 김도현<br/>C-03 박서연 · C-04 이준호<br/>C-05 최민지"] --> B["<b>Adjacent 확장</b><br/>A-01 한지우<br/>A-02 윤채원<br/>A-03 오현숙"]
-A --> C["<b>Extreme 극단</b><br/>E-01 강수빈<br/>E-02 임태경"]
-B --> D["<b>Non-user 비활성</b><br/>N-01 서지훈<br/>N-02 조은비"]
-style A fill:#33BBFF,stroke:#333,stroke-width:2px
-style B fill:#33FFBB,stroke:#333,stroke-width:2px
-style C fill:#FF3322,stroke:#333,stroke-width:2px
-style D fill:#DDDDDD,stroke:#333,stroke-width:2px
+    subgraph CORE["🔵 Core · 핵심 사용자 (5)"]
+        direction TB
+        C1["<b>C-01 정하윤 (26)</b> · 크루 캡틴<br/><i>'우리 운동하자'를 먼저 꺼내고<br/>혼자 독촉하다 지친 단톡방 방장</i>"]:::core
+        C2["<b>C-02 김도현 (24)</b> · 크루 러너<br/><i>초대는 반가운데<br/>참가비 3만원에서 손이 멈춘 취준생</i>"]:::core
+        C3["<b>C-03 박서연 (22)</b> · 스터디 페이서<br/><i>타이머 8시간이 아무것도<br/>증명하지 못한다는 걸 아는 수험생</i>"]:::core
+        C4["<b>C-04 이준호 (31)</b> · 루틴 커미터<br/><i>챌린저스가 사라진 뒤<br/>돈 걸 곳을 잃은 개발자</i>"]:::core
+        C5["<b>C-05 최민지 (28)</b> · 기한 스프린터<br/><i>촬영일은 박혔는데 12주를<br/>버틸 장치가 없는 디자이너</i>"]:::core
+    end
+
+    subgraph ADJ["🟢 Adjacent · 확장 사용자 (3)"]
+        direction TB
+        A1["<b>A-01 한지우 (29)</b> · 벌금 총무<br/><i>2년째 엑셀과 계좌이체로<br/>벌금을 걷는 러닝크루 총무</i>"]:::adj
+        A2["<b>A-02 윤채원 (19)</b> · 데일리 크루<br/><i>셋로그 4개월차,<br/>천장 사진 반복에 지쳐가는 대학생</i>"]:::adj
+        A3["<b>A-03 오현숙 (47)</b> · 케어 리포터<br/><i>기관 앱과 수기 일지에<br/>이중으로 증빙하는 요양보호사</i>"]:::adj
+    end
+
+    subgraph EXT["🔴 Extreme · 극단 사용자 (2)"]
+        direction TB
+        E1["<b>E-01 강수빈 (27)</b> · 교대근무 인증 실패자<br/><i>2주마다 근무표가 바뀌어<br/>고정 시각 계약이 불가능한 간호사</i>"]:::ext
+        E2["<b>E-02 임태경 (33)</b> · 상습 미달성자<br/><i>6번 참가해 5번 잃고도<br/>다시 참가하는 불규칙 노동자</i>"]:::ext
+    end
+
+    subgraph NON["⚪ Non-user · 비활성 사용자 (2)"]
+        direction TB
+        N1["<b>N-01 서지훈 (25)</b> · 알림 이탈자<br/><i>BeReal을 지운 뒤<br/>카테고리 전체를 거부하는 대학원생</i>"]:::non
+        N2["<b>N-02 조은비 (35)</b> · 현금 구조 거부자<br/><i>'못 한 사람 돈을 내가 먹는 거잖아요'<br/>에서 멈추는 초등교사</i>"]:::non
+    end
+
+    CORE ==> ADJ
+    CORE ==> EXT
+    ADJ ==> NON
+
+    classDef core fill:#33BBFF,stroke:#333,stroke-width:2px,color:#111;
+    classDef adj fill:#33FFBB,stroke:#333,stroke-width:2px,color:#111;
+    classDef ext fill:#FF3322,stroke:#333,stroke-width:2px,color:#fff;
+    classDef non fill:#DDDDDD,stroke:#333,stroke-width:2px,color:#111;
 ```
 
 ---
