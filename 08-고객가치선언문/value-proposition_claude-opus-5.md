@@ -1,4 +1,4 @@
-# 09. Value Proposition — 보상형 그룹 목표 인증 플랫폼
+# Value Proposition — 보상형 그룹 목표 인증 플랫폼
 
 > **작성 메타**
 >
@@ -329,7 +329,7 @@ graph TD
     J["<b>07 JTBD</b><br/>인터뷰 대상 9명<br/>모의 응답 9건"]:::mock
     C["<b>08-1 경쟁분석</b><br/>9종 · 링크 52건 검증<br/>관계에 강제력 놓은 곳 0"]:::hard
     V["<b>08-2 가치선언</b><br/>3선언 · 여정 구간 분담"]:::src
-    VP["<b>09 Value Proposition</b><br/>본 문서"]:::out
+    VP["<b>Value Proposition</b><br/>본 문서"]:::out
 
     M --> P --> O --> J --> V --> VP
     O --> V
