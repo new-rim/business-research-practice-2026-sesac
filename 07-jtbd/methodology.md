@@ -10,7 +10,7 @@
 | 문서 | 여기서 가져오는 것 |
 |---|---|
 | `05-personas/persona-02-spectrum.md` | 인터뷰 대상이 될 사용자 유형(핵심·확장·극단·비활성) |
-| `06-opportunity-score/aos-scoring.md` | Q1(혁신기회)으로 분류된 항목 — 방법론상 **JTBD 인터뷰 1순위 대상** |
+| `06-opportunity-score/기회점수-분석-종합.md` (Ⅱ부) | Q1(혁신기회)으로 분류된 항목 — 방법론상 **JTBD 인터뷰 1순위 대상** |
 
 ---
 

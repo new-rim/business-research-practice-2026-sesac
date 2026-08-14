@@ -178,7 +178,7 @@ Likert 5점 척도(1~5)를 그대로 쓰고, 중간값 **3.0**을 중심선으�
 ## 3️⃣ 채점 워크플로우
 
 > ② Importance 평가 → ③ Satisfaction 평가 → ④ AOS 계산 → ⑤ Matrix 시각화
-> **본 절의 실행 결과는 `aos-scoring.md`에 있습니다.** (절 번호는 원 자료의 구성을 따릅니다)
+> **본 절의 실행 결과는 `기회점수-분석-종합.md` Ⅱ부에 있습니다.** (절 번호는 원 자료의 구성을 따릅니다)
 
 ---
 
@@ -229,4 +229,4 @@ Likert 5점 척도(1~5)를 그대로 쓰고, 중간값 **3.0**을 중심선으�
 |---|---|
 | TAM · SAM · 접근 가능 SAM · SOM | `04-tam-sam-som/시장분석 종합보고서 (TAM-SAM-SOM).md` |
 | 세그먼트별 도달 가능 인원 · 금액 | 동일 문서 §6 Market Segment Map |
-| Pain을 겪는 인물과 그 인물의 세그먼트 | `06-opportunity-score/pain-point-inventory.md` |
+| Pain을 겪는 인물과 그 인물의 세그먼트 | `06-opportunity-score/기회점수-분석-종합.md` |
